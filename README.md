@@ -50,3 +50,18 @@ location without having to type multiple commands where the navigate
 directory by directory or one long command.
 
 This script was originally created by my friend Amanuel. Check out his GitHub page [here](https://github.com/AmanuelEphrem)! I have slightly modified it.
+
+## **Powershell**
+
+### **``install_fonts.ps1``**
+
+If users want to install new fonts on Windows 10, they either have to source 
+the font files from the Microsoft Store or download them from online and 
+install them manually. The latter presents an issue if users need to download 
+to install a lot of fonts at once, such as when they setup a new machine. This 
+script automates the installation of several ```.otf``` and/or ```.ttf``` fonts 
+files in one go.
+
+This script was originally created by Mick Pletcher and distributed under the 
+MIT license. The original source code can be found [here](https://github.com/MicksITBlogs/PowerShell/blob/master/InstallFonts.ps1). My changes to this code are released under the GNU 
+General Public License v3.0 as shown [here](https://github.com/aanish-pradhan/shell-scripts/blob/main/LICENSE).
