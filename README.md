@@ -6,6 +6,7 @@ Below is a list of the various scripts and a short summary of what they do.
 ## **Bash**
 
 ### **```repo_manager.sh```**
+
 Many times, if you come across a GitHub repository that you find interesting or 
 useful, would like to add onto or reference later, you have the option of 
 starring or forking the repository. However, if the repository is deleted 
@@ -36,3 +37,16 @@ collection. It gets around Git's inability to commit and push nested
 repositories by storing a full copy of the repositories of interest within a 
 single repository that you can commit and push to a service such as GitHub or 
 GitLab.
+
+### **```teleport.sh```**
+
+If you have many directories on your machine that you navigate into and work in 
+several times a day, it can get tedious to have to navigate into those 
+directories from your home directory manually. This script allows users to add 
+the paths of directories they work in routinely as well as a nickname for them. 
+When the user runs the script and specifies a nickname for a directory, they 
+are automatically *teleported* to the directory. Users reach the desired 
+location without having to type multiple commands where the navigate 
+directory by directory or one long command.
+
+This script was originally created by my friend Amanuel. Check out his GitHub page [here](https://github.com/AmanuelEphrem)! I have slightly modified it.
